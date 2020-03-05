@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* Produces grey color for the background of the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling for header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* Prevents h1 header from spanning to the end of the page, leaving room for the nav buttons */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Font color for the letters "seo" in the Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Styling for the nav buttons */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,15 +43,18 @@ body {
     margin-left: 25px;
 }
 
+/* Styling for all links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Styling and location of hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,22 +64,26 @@ p {
     background-position: center;
 }
 
+/* Styling to float SEO and social images left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styling to float Online Rep image right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Stlying for all articles inside of Section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Stlying for all articles inside of Aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -124,6 +135,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling for footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -131,6 +143,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* Font size for H4 heading in footer */
+.footer h4 {
     font-size: 20px;
 }
